@@ -15,7 +15,6 @@ class CreateDestinosTable extends Migration
     {
         Schema::create('destinos', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
         });
     }
 
